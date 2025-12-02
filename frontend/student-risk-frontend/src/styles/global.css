@@ -1,0 +1,219 @@
+/* Global Font */
+body {
+  background-color: #f7f3ec; /* Softer beige */
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.3px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Chic Card */
+.chic-card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 3rem;
+  border-radius: 24px;
+  box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.1);
+  border: 1px solid #80002022;
+  backdrop-filter: blur(12px);
+}
+
+/* Burgundy Buttons */
+.btn-burgundy {
+  background-color: #7a001e !important; /* Slightly darker burgundy */
+  padding: 14px !important;
+  border-radius: 14px !important;
+  color: white !important;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  transition: 0.2s ease;
+  border: none;
+}
+
+.btn-burgundy:hover {
+  background-color: #5a0016 !important;
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 20px rgba(122, 0, 30, 0.2);
+}
+
+/* Input fields */
+.chic-input {
+  padding: 14px;
+  border-radius: 12px;
+  border: 1.5px solid #7a001e55;
+  background-color: #faf7f1;
+  transition: 0.2s ease;
+}
+
+.chic-input:focus {
+  border-color: #7a001e;
+  box-shadow: 0px 0px 8px rgba(122, 0, 30, 0.2);
+  outline: none;
+}
+
+/* Headings */
+.burgundy-title {
+  color: #7a001e;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Soft fade animations */
+.fade-in {
+  animation: fadeIn 0.6s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+/* Status Colors (Chic + Aesthetic) */
+
+/* Burgundy Red — High Risk / Low Attendance */
+.status-red {
+  color: #7a001e !important;
+  font-weight: 700;
+}
+
+/* Deep Warm Yellow — Medium Risk / Moderate Attendance */
+.status-yellow {
+  color: #b38b00 !important;
+  font-weight: 700;
+}
+
+/* Dark Sage Green — Good / Low Risk */
+.status-green {
+  color: #2c5f2d !important;
+  font-weight: 700;
+}
+
+/* Filled Badge Style */
+.status-badge {
+  padding: 6px 14px;
+  border-radius: 12px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* Filled Versions */
+.badge-red {
+  background-color: #7a001e !important;
+  color: #f7f3ec !important;
+}
+
+.badge-yellow {
+  background-color: #b38b00 !important;
+  color: #f7f3ec !important;
+}
+
+.badge-green {
+  background-color: #2c5f2d !important;
+  color: #f7f3ec !important;
+}
+
+/* Sidebar Menu Items */
+.sidebar-item {
+  cursor: pointer;
+  padding: 10px 0;
+  transition: 0.3s ease;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.sidebar-item:hover {
+  color: #f7f3ec;
+  opacity: 1;
+  transform: translateX(4px);
+}
+
+/* Active menu item */
+.sidebar-active {
+  font-weight: 700;
+  color: #ffffff;
+  border-left: 4px solid #f7f3ec;
+  padding-left: 10px;
+  opacity: 1;
+}
+
+/* Sidebar container */
+.sidebar {
+  width: 260px;
+  background-color: #7a001e;
+  color: white;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  transition: width 0.3s ease;
+}
+
+.sidebar:hover {
+  width: 280px;
+}
+
+/* Title */
+.sidebar-title {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Subtle fade */
+.fade {
+  animation: fadeIn 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+/* TIMELINE WRAPPER */
+.timeline-container {
+  position: relative;
+  margin-left: 30px;
+  padding-left: 20px;
+  border-left: 3px solid #7a001e55;
+}
+
+/* TIMELINE DOTS */
+.timeline-dot {
+  width: 15px;
+  height: 15px;
+  background-color: #7a001e;
+  border-radius: 50%;
+  position: absolute;
+  left: -9px;
+  margin-top: 5px;
+}
+
+/* TIMELINE ITEM */
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+/* TIMELINE CARD CHIC STYLE */
+.timeline-card {
+  padding: 1.5rem;
+  padding-left: 2rem;
+  border-left: 4px solid #7a001e;
+}
+
+.sidebar-item {
+  cursor: pointer;
+  padding: 10px 0;
+  transition: 0.3s ease;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.sidebar-item:hover {
+  color: #f7f3ec;
+  opacity: 1;
+  transform: translateX(4px);
+}
+
+
+
+
