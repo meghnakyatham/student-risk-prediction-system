@@ -11,7 +11,7 @@ const authRoutes = require("./routes/auth");
 const studentRoutes = require("./routes/studentroutes");
 const teacherRoutes = require("./routes/teacherroutes");
 const parentRoutes = require("./routes/parentroutes");
-const subjectAttendanceRoutes = require("./routes/SubjectAttendanceRoutes");
+const SubjectAttendanceRoutes = require("./routes/SubjectAttendanceRoutes");
 
 
 
@@ -47,7 +47,7 @@ const lectureRoutes = require("./routes/lectureRoutes");
 app.use("/api/calendar", calendarRoutes);
 app.use("/api/lectures", lectureRoutes);
 app.use("/api/ai", aiRoutes);
-app.use("/api/sub-attendance", subjectAttendanceRoutes);
+app.use("/api/sub-attendance", SubjectAttendanceRoutes);
 app.use("/api/calendar", require("./routes/calendarRoutes"));
 
 
